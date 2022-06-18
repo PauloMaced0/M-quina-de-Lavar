@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Washing_Machine is 
+	port(CLOCK_50: in std_logic;
+	SW : in std_logic_vector(0 downto 0);
+	HEX0 : out std_logic_vector(6 downto 0);
+	HEX1 : out std_logic_vector(6 downto 0);
+	HEX2 : out std_logic_vector(6 downto 0);
+	HEX3 : out std_logic_vector(6 downto 0);
+	HEX4 : out std_logic_vector(6 downto 0);
+	HEX5 : out std_logic_vector(6 downto 0)
+		);
+end Washing_Machine;
+
+architecture shell of Washing_Machine is 
+	signal s_blink : std_logic;
+begin
+	geradorpulsos : entity work.GeradorpulsosLargos(Behav)
+							port map(clk => CLOCK_50,
+										reset => SW(0),
+										blink => s_blink
+										);
+									
+end shell;

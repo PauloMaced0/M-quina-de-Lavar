@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "newTime",
+					"strict" : false
+				},
+				{
+					"name" : "timeVal[0]",
+					"strict" : false
+				},
+				{
+					"name" : "timeVal[1]",
+					"strict" : false
+				},
+				{
+					"name" : "timeVal[2]",
+					"strict" : false
+				},
+				{
+					"name" : "timeVal[3]",
+					"strict" : false
+				},
+				{
+					"name" : "prog_num[0]",
+					"strict" : false
+				},
+				{
+					"name" : "prog_num[1]",
+					"strict" : false
+				},
+				{
+					"name" : "prog_num[2]",
+					"strict" : false
+				},
+				{
+					"name" : "prog_num[3]",
+					"strict" : false
+				},
+				{
+					"name" : "turnedOn",
+					"strict" : false
+				},
+				{
+					"name" : "water_valve",
+					"strict" : false
+				},
+				{
+					"name" : "water_pump",
+					"strict" : false
+				},
+				{
+					"name" : "rinse",
+					"strict" : false
+				},
+				{
+					"name" : "spin",
+					"strict" : false
+				},
+				{
+					"name" : "prog3",
+					"strict" : false
+				},
+				{
+					"name" : "start_stop",
+					"strict" : false
+				},
+				{
+					"name" : "prog1",
+					"strict" : false
+				},
+				{
+					"name" : "prog2",
+					"strict" : false
+				},
+				{
+					"name" : "timeExp",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

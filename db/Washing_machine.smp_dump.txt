@@ -1,0 +1,21 @@
+
+State Machine - |FSM|s_currentState
+Name s_currentState.Aux9 s_currentState.Aux8 s_currentState.Aux7 s_currentState.Aux6 s_currentState.Aux5 s_currentState.Aux4 s_currentState.Aux3 s_currentState.Aux2 s_currentState.FEspera s_currentState.FRemocao_agua3 s_currentState.FRemocao_agua2 s_currentState.FEnxaguar2 s_currentState.FMeter_agua2 s_currentState.FRemocao_agua1 s_currentState.FSpin s_currentState.FEnxaguar1 s_currentState.FMeter_agua1 s_currentState.Finit 
+s_currentState.Finit 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+s_currentState.FMeter_agua1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+s_currentState.FEnxaguar1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+s_currentState.FSpin 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+s_currentState.FRemocao_agua1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+s_currentState.FMeter_agua2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+s_currentState.FEnxaguar2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+s_currentState.FRemocao_agua2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+s_currentState.FRemocao_agua3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+s_currentState.FEspera 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux6 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+s_currentState.Aux9 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

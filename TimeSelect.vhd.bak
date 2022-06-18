@@ -1,0 +1,37 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity TimeSelect is 
+	port(p_num : in std_logic_vector(3 downto 0);
+			enablehex6 : out std_logic;
+			enablehex7 : out std_logic;
+			hex6Out : out std_logic_vector(3 downto 0);
+			hex7Out : out std_logic_vector(3 downto 0)
+			);
+entity TimeSelect;
+
+architecture Behav TimeSelect is 
+	begin
+		enablehex6 <= '1';
+		enablehex7 <= '1';
+		
+		if(p_num = "0001") then
+			hex6Out <= "0011";
+			hex7Out <= "0110";
+		elsif(p_num = "0010") then
+			hex6Out <= "0010";
+			hex7Out <= "0010";
+		elsif(p_num = "0011") then
+			hex6Out <= "0000";
+			hex7Out <= "0110";
+			enablehex7 <= '0';
+		else
+			hex6Out <= "0000";
+			hex7Out <= "0000";
+			enablehex6 <= '0';
+			enablehex7 <= '0';
+		end if;
+		
+	end process;
+end Behav;
+		
